@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: web-thoi-trang
+  datasource:
+    url: "jdbc:mysql://localhost:3306/web_thoi_trang"
+    username: root
+    password: lam18082003
+
+server:
+  port: 8080
+  servlet:
+    context-path: /web-thoi-trang
